@@ -1,0 +1,200 @@
+body {
+	background-image: url('ggg.jpeg');
+	background-size: cover;
+	background-position: center;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #4b1530;
+	background: #2192b5;
+	padding: 20px;
+	font-family:'Courier New', Courier, monospace
+}
+
+h1 {
+	margin: 0;
+	color: white;
+	text-align: center;
+	font-size: 3em;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+textarea {
+	width: 100%;
+}
+
+.galeria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.galeria img {
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+video {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%; /* evitar que los videos se desborden del contenedor */
+  position: relative;
+  transform: 0.5;
+}
+
+.video-wrapper {
+  width: 45%; /* ajustar el ancho de cada video al 45% del contenedor */
+}
+
+.video-wrapper video {
+  width: 100%; /* ajustar el ancho de los videos para que se ajusten a sus respectivos contenedores */
+  height: auto; /* ajustar la altura de los videos de manera proporcional */
+}
+.galeria{
+	display: flex;
+  }
+  
+  .galeria img {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+	border-radius: 30%;
+	transition: transform 0.5s;
+	padding: 50px;
+  }
+  
+  .galeria img:hover {
+	transform: scale(0.75)
+  }
+  .heart {
+	width: 100px;
+	height: 90px;
+	position: relative;
+	animation: heartbeat 1s infinite;
+  }
+  
+  .heart:before,
+  .heart:after {
+	content: "";
+	position: absolute;
+	left: 50px;
+	top: 0;
+	width: 50px;
+	height: 80px;
+	background: rgb(255, 0, 0);
+	border-radius: 50px 50px 0 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+  }
+  
+  .heart:after {
+	left: 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+  }
+  
+  @keyframes heartbeat {
+	0% {
+	  transform: scale(0.8);
+	}
+	20% {
+	  transform: scale(1);
+	}
+	40% {
+	  transform: scale(0.8);
+	}
+	60% {
+	  transform: scale(1);
+	}
+	80% {
+	  transform: scale(0.8);
+	}
+	100% {
+	  transform: scale(0.8);
+	}
+  }
+  .corazon2 {
+	left: 80%;
+	width: 100px;
+	height: 90px;
+	position: relative;
+	animation: heartbeat 1s infinite;
+  }
+  .corazon2:before,
+  .corazon2:after {
+	content: "";
+	position: absolute;
+	left: 50px;
+	top: 0;
+	width: 50px;
+	height: 80px;
+	background: red;
+	border-radius: 50px 50px 0 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+  }
+  
+  .corazon2:after {
+	left: 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+  }
+  
+  @keyframes corazon2 {
+	0% {
+	  transform: scale(0.8);
+	}
+	20% {
+	  transform: scale(1);
+	}
+	40% {
+	  transform: scale(0.8);
+	}
+	60% {
+	  transform: scale(1);
+	}
+	80% {
+	  transform: scale(0.8);
+	}
+	100% {
+	  transform: scale(0.8);
+	}
+  }
+  

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aniversario de Novios</title>
+    <link rel="stylesheet" href="animacion.css" />
+  </head>
+  <body>
+    <header id="encabezado">
+		<div class="heart"></div>
+      	<h1>Feliz Aniversario Mi Princesa</h1>
+		<div class="corazon2"></div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Le esto mi Vida</h2>
+        <textarea id="carta" rows="10" cols="50">
+Wendy Quispe Carlo,
+					
+¡Feliz aniversario, mi amor! Dos años ya han pasado desde que comenzamos nuestra relación, y siento que ha sido el mejor tiempo de mi vida. Me siento tan afortunado de tener a alguien como tú a mi lado, alguien que me apoya, me entiende y me ama incondicionalmente.
+					
+Recuerdo nuestro primer beso, nuestra primera cita y cada uno de los momentos que hemos compartido juntos. Cada uno de ellos ha sido especial y ha dejado una marca en mi corazón. No puedo imaginar mi vida sin ti, porque eres la persona que me hace feliz todos los días.
+					
+Quiero agradecerte por todo lo que has hecho por mí. Gracias por escucharme cuando necesito hablar, por animarme cuando estoy abatido y por hacerme reír cuando necesito alegría en mi vida. No hay nada que no haría por ti, porque eres mi todo.
+					
+En este día especial, quiero renovar mis votos de amor y compromiso contigo. Te prometo amarte, cuidarte y respetarte siempre. Espero que podamos seguir construyendo juntos una vida llena de amor, felicidad y sueños cumplidos.
+					
+Feliz aniversario, mi amor. Te amo con todo mi corazón.
+					
+Con todo mi amor.
+Vladimir Apaza Nuñez
+			</textarea>
+      </section>
+
+      <section>
+        <h2>Galería de Fotos</h2>
+        <div class="galeria">
+          <img src="imagen1.jpg" />
+          <img src="imagen2.jpg" />
+          <img src="imagen3.jpg" />
+          <img src="imagen4.jpeg" />
+          <img src="imagen5.jpeg" />
+        </div>
+      </section>
+
+      <section>
+        <h2>Video de Nuestros Mejores Momentos</h2>
+		<div class="video-container">
+			<div class="video-wrapper">
+			  <video src="25tt.mp4" controls></video>
+			</div>
+			<div class="video-wrapper">
+			  <video src="WhatsApp Video 2023-05-14 at 13.15.53.mp4" controls></video>
+			</div>
+	</section>
+    </main>
+
+    <footer>
+      <p>© 2023 - Todos los derechos reservados - Vladimir Apaza Nuñez</p>
+    </footer>
+
+    <script>
+      const encabezado = document.getElementById("encabezado");
+
+      encabezado.addEventListener("click", () => {
+        const colores = ["#ff69b4", "#00bfff", "#ffa500", "#00ff7f", "#8a2be2"];
+        const indice = Math.floor(Math.random() * colores.length);
+        encabezado.style.backgroundColor = colores[indice];
+      });
+    </script>
+  </body>
+</html>
